@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --background-color: rgb(119, 220, 143);
+    --primary-color :rgb(1, 71, 20);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 1.8rem;
+}
+html{
+    font-size: 62.5%;
+}
+.navbar-brand{
+    font-size: 3.7rem;
+}
+.bg-header{
+    background-color: var(--background-color);
+}
+.nav-link:link , .nav:visited{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+    display: inline-block;
+}
+.nav-link:hover , .nav:active{
+    color: var(--primary-color)
+}
+.nav-link.cta{
+    background-color: rgb(114, 202, 104);
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+.nav-link.cta:hover{
+    background-color: rgb(72, 167, 61);
+    color: white;
+}
+h1{
+    font-size: 5.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -0.4px;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.hero-section p {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    color: var(--primary-color);
+}
